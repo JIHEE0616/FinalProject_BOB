@@ -5,7 +5,7 @@
 [BOB](https://gd1class.iptime.org:8844/GDJ56_BOB_final/)
 > 푸드 멀티 플랫폼  :  BOB
 
-![메인](https://user-images.githubusercontent.com/39483946/218364253-7fa03586-fd2c-4503-935f-280e2380f705.jpg)
+![메인화면](https://user-images.githubusercontent.com/39483946/221104505-3f7227ed-f504-4f07-8bf1-ef9b5db85d57.jpg)
 
 ##### 국비수업 - 파이널프로젝트
 
