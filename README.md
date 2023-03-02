@@ -136,18 +136,39 @@
 **3. 클래스 장인관리**
 ![클래스장인관리메인](https://user-images.githubusercontent.com/39483946/222414104-fb6f9ba5-e2c0-4cba-a101-adc19b882188.JPG)
   
--> 
+-> 장인신청 심사 필요한 회원 우선 출력, 나머지는 심사일 기준으로 내림차순으로 출력했다.
   <br> <br>
-![10일전단체메일전송](https://user-images.githubusercontent.com/39483946/218007572-0a1d412f-b965-4587-9d5e-2e3289654d10.JPG)
-
-![출국10일전메일수신](https://user-images.githubusercontent.com/39483946/218007788-57219bb5-b208-4011-b4fc-001f2752f3ee.JPG)
+![장인심사](https://user-images.githubusercontent.com/39483946/222413838-4ccc5ec4-ff83-40dd-9685-dce15633036c.JPG)
   
--> 회원가입시 메일수신동의를 체크 한 회원은 출국10일전에 메일로도 알림서비스를 받을 수 있음 
+-> 심사필요 클릭시 장인심사 가능
 
+![장인승인거절](https://user-images.githubusercontent.com/39483946/222413731-da2c1e48-0ce8-46e8-8823-439e2da0509f.JPG)
+  
+-> 장인 승인, 거절 가능하다.
+
+![장인정보](https://user-images.githubusercontent.com/39483946/222413914-d25160ca-473a-4b46-b667-616a761e1836.JPG)
+  
+-> 장인이 된 회원 클릭시 해당 회원의 장인정보 및 클래스 정보를 볼 수 있다.
+
+![장인박탈사유입력](https://user-images.githubusercontent.com/39483946/222413662-0282af42-9544-4cf8-a815-8b9884a8601e.JPG)
+
+-> 장인이 된 회원을 박탈 할 수 있다.
+  
+![박탈,거절사유](https://user-images.githubusercontent.com/39483946/222413466-32cdbdd4-95ef-4294-81f4-dbdeba8b7b10.JPG)
+  
+-> 박탈,거절 클릭시 사유를 확인 할 수 있다.
+  
+**4. 1:1문의 관리**
+![문의관리메인](https://user-images.githubusercontent.com/39483946/222413229-63ae6a57-10d1-46a1-8a24-3e7a28dcb76e.JPG)
+  
+-> >>
+  <br> <br>
+  
+  
 </details>     <br/>
  <details>
     <summary>[ 나에게 맞는 나라찾기 ]</summary> 
-  
+
 ![나에게맞는나라찾기전체](https://user-images.githubusercontent.com/39483946/218349719-23c9d0c3-6888-4a65-84a3-beb3f6236b91.jpg)
 
 -> 4가지 항목을 체크
