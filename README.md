@@ -1,7 +1,5 @@
 ### FinalProject_BOB
 
-#수정중,,,,!!!!!!!!!!!!
-
 [BOB](https://gd1class.iptime.org:8844/GDJ56_BOB_final/)
 > 푸드 멀티 플랫폼  :  BOB
 
@@ -35,24 +33,25 @@
 ### 1. 프로젝트 소개
 
 <aside>
-💡 현재 총 24개국이 가능한 워킹홀리데이, 나라마다 다른 워킹홀리데이 신청과 준비의 고민을 해결해 주기 위한 다양한 기능을 제공
+💡 Bring joy for your table :) 당신의 식탁 위에  즐거움을 선사합니다!
 
-💡 나라별 정보, 사용자 성향에 적합한 워홀 나라 찾기, 출국일지 관리 나아가 워홀러들과의 소통, 꼭 알아야 할 공지사항 및 궁금한 걸 물어볼 수 있는 QnA 등의 기능을 제공
+💡 마켓서비스, 원데이클래스, 정기구독, 커뮤니티, 챗봇 등을 한 사이트에서 한번에 해결할 수 있는 푸드 멀티 플랫폼 사이트
 </aside>
 
 ### 2. 프로젝트 정보
 프로젝트 인원 : 6명
 
-프로젝트 기간 : 2022.10.17 ~ 2022.12.23
+프로젝트 기간 : 2022-12-26 ~ 2023-02-15
 
 ### 3. 프로젝트 기능
-- **[ 알림창 ]** Cookie를 생성하여 팝업창이 하루동안 열리지 않음
 
-- **[ 회원 관리 ]** 회원정보 수정
+제가 맡은 프로젝트의 주요 기능은 다음과 같습니다.
+
+- **[ 알림창 ]** 장인 신청 진행상황 알려줌
+
+- **[ 챗봇 - 군침이 ]** 카카오챗봇API 사용
 
 - **[ 관리자 페이지 ]** 매출 / 회원 / 장인 / 문의 / 상품 / 환불 관리
-
-- **[ 챗봇 ]** 군침이
 
 ### 4. 사용 기술
 
@@ -62,10 +61,12 @@
 - Java 11
 - jQuery 3.6.1
 - WAS : Tomcat 9.0
+- Spring Framework
 
 ##### Build Tool
 - Eclipse IDE 2022-09
 - Oracle Sql Developer
+- Spring Tool Suite 3
 
 ##### DataBase
 - Orcale DB
@@ -75,54 +76,67 @@
 
 ### 5. 실행 화면
   <details>
-    <summary>[ 메인페이지 - 팝업창 ]</summary>   
+    <summary>[ 메인페이지 - 알림창 ]</summary>   
   
-![메인화면 팝업창](https://user-images.githubusercontent.com/39483946/218351823-be2969f0-8b04-425b-a0a4-79da37f428e3.JPG)
+![알림창1](https://user-images.githubusercontent.com/39483946/222412043-5d889edb-7eb2-4254-aacf-2b48b3accb4d.JPG)
 
--> 하루동안 이 창 열지 않음 체크 후 닫을 시 쿠키가 생성되어 1일간 해당 팝업이 열리지 않음
+![알림창2](https://user-images.githubusercontent.com/39483946/222412279-35ca11a0-8938-49aa-8a2f-d5622e42e97b.JPG)
+
+![알림창3](https://user-images.githubusercontent.com/39483946/222412431-beabe800-5e80-45ab-91b5-14a33b231dc4.JPG)
+
+![알림창4](https://user-images.githubusercontent.com/39483946/222412532-92b1743b-0981-4889-9c89-60603ac4bd8e.JPG)
+
+-> 로그인한 사용자의 장인신청상태를 알림창으로 보여준다. 관리자는 다른 내용을 출력한다.
   </details>  <br/>
   
   <details>
-    <summary>[ 회원 관리 ]</summary>   
+    <summary>[ 챗봇 - 군침이 ]</summary>   
        
-    
-  **1. 비밀번호 찾기**   
- ![비밀번호찾기-이메일인증성공](https://user-images.githubusercontent.com/39483946/218007468-c91e16e3-c3ef-4656-b879-9aeb2a584d23.JPG)
+  **1. 챗봇 추가**   
+![챗봇추가](https://user-images.githubusercontent.com/39483946/222412739-7720c23c-3c81-4ecb-9701-9d5216c181e0.JPG)
   
--> 가입시 임력했던 이메일 인증을 통해 비밀번호 찾기를 이용할 수 있다.
+-> 헤더 오른편에 위치한 챗봇추가 버튼 클릭시 '군침이'를 추가할 수 있다.
   <br/>    
   
-  **2. 재설정**   
-![비밀번호재설정](https://user-images.githubusercontent.com/39483946/218007234-2150aa6d-1f13-47aa-8521-fff8bc79ffdf.JPG)
+  **2. 챗봇 메인**   
+![챗봇1](https://user-images.githubusercontent.com/39483946/222412845-a67c8ca5-a83e-4ab4-afe4-3055bc34aad0.png)
   
--> 이메일인증에 성공시 비밀번호를 재설정 할 수 있다. 
+-> 군침이를추가 하면 자동응답이 나오며, 아래 6개의 항목을 선택할 수 있다.
+-> 오늘의밥, 공지사항 클릭시 해당 사이트화면으로 이동 / 마켓,원데이,구독 클릭시 군침이가 대답할 수 있는 내용을 알려준다.
+
+  **3. 챗봇 질문예시**   
+![챗봇질문](https://user-images.githubusercontent.com/39483946/222412938-6ddcabd1-4f53-42ca-89d8-c7926017c3e2.jpg)
+  
+-> 군침이가 자동으로 대답해준다. 상담직원 연결시 상담직원이 대답할 수 있게 설정하였다.
+
  </details>  <br/>
  <details>
-    <summary>[ 출국일지 관리 ]</summary>   
+    <summary>[ 관리자 페이지 ]</summary>   
 
-  **1. 출국일지 등록 / 수정**   
-![출국일지 등록](https://user-images.githubusercontent.com/39483946/218007847-3513f205-d74f-4460-9c4b-fcaa82e4d199.JPG)
+  **1. 관리자페이지 메인**   
+![관리자페이지메인](https://user-images.githubusercontent.com/39483946/222413118-697dbd48-b30b-410d-85a1-060d74659839.JPG)
 
--> 출국일은 오늘 날짜 이후로만 선택 가능하게 제한
--> 출국 10일전 알림서비스 체크 가능
+-> 회원수, 매출액, 판매물품수, 직원수
+-> 판매물품 카테고리별 세분화 그래프, 올해목표매출액과 현재 매출액 그래프 -> Chart.js 활용
+
  <br> <br>
-  **2. 출국일지에 따른 화면처리 및 Ajax를 통한 체크리스트 저장**
-![출국일남은사람](https://user-images.githubusercontent.com/39483946/218007816-64af3a59-b335-4839-99c2-ac32e71e0dd9.JPG)
-  
--> 출국일 남은사람
+  **2. 회원관리**
+![회원관리메인](https://user-images.githubusercontent.com/39483946/222414348-7bb33fe5-c057-4218-9fe1-3f8e35fb1586.JPG)
+
+->회원관리 메인화면
     <br> <br>
-![출국일지 디데이](https://user-images.githubusercontent.com/39483946/218007894-8ed3540d-6a22-414e-9709-c40019216339.JPG)
+![회원관리정보](https://user-images.githubusercontent.com/39483946/222414458-0fc4e202-8f5c-43b0-a172-48a9c040f235.JPG)
 
--> 출국일 디데이
+-> 회원 클릭시 세부정보
   <br> <br>
-![출국일지난사람](https://user-images.githubusercontent.com/39483946/218007923-58c86368-6888-4071-84ee-dda5b0f603b2.JPG)
+![회원관리탈퇴](https://user-images.githubusercontent.com/39483946/222414572-67039295-cccc-4119-94cd-5f5d3ca222d3.JPG)
   
--> 출국일 지난사람 / 삭제가능
+-> 회원 탈퇴 기능
  <br> <br>
-**3. 출국일 알림서비스**
-![알림서비스동의시출국10일전알림팝업](https://user-images.githubusercontent.com/39483946/218007749-27b6697c-d37c-4b6e-afd1-020aca3bbd6a.JPG)
+**3. 클래스 장인관리**
+![클래스장인관리메인](https://user-images.githubusercontent.com/39483946/222414104-fb6f9ba5-e2c0-4cba-a101-adc19b882188.JPG)
   
--> 10일전 알림서비스 체크하면 로그인시 알림팝업을 띄워줌
+-> 
   <br> <br>
 ![10일전단체메일전송](https://user-images.githubusercontent.com/39483946/218007572-0a1d412f-b965-4587-9d5e-2e3289654d10.JPG)
 
